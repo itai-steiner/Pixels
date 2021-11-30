@@ -161,6 +161,7 @@ if (replicateQuestion == ('y' || 'Y')){
     let timesQuestion = prompt('How many times?  ');
     replicateLoopID(Number(timesQuestion)) // <-- choose how many times you want the pixels to replicate with ID
     saveData(pixelArrayID)
+    console.log(pixelArrayID)
 } else if(replicateQuestion == ('n' || 'N')){
     console.log("Your pixels are in pixels.json file.")
 } else { 
