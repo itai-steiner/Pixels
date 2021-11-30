@@ -170,4 +170,4 @@ if (replicateQuestion == ('y' || 'Y')){
 }
 } while (replicateQuestion == ('y' || 'Y') )
 
-//Please run thin with nodeJS terminal
+//Please run this at nodeJS terminal
